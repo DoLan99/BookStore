@@ -1,0 +1,78 @@
+@mixin hover_text($color,$text-decoration){
+	color:$color;
+	text-decoration:$text-decoration;
+}
+@mixin img_fix($width,$max-width,$height,$object-fit){
+	width:$width;
+	height:$height;
+	max-width:$max-width;
+	object-fit:$object-fit;
+}
+@mixin full_width{
+	width: 100%;
+	float:left;
+}
+/*== Color ==*/
+	$background-white:#fff;
+	$base-hover-background:#1890FF;
+	$base-hover-background-1:#e6f1fa;
+	$base-hover-background-2:#f2f5fa;
+	$base-hover-background-3:#e1e4ea;
+	$base-hover-background-4:#f4f5f7;
+	$base-hover-background-5:#e5efff;
+	$base-hover-background-6:#6f6f6f;
+	$base-hover-background-7:#7f8c99;
+	$base-hover-background-8:#e9e1f8;
+	$base-hover-background-9:#bdbdbd;
+	$base-hover-color:#1890FF;
+	$color-white:#fff;
+	$color-black:#000;
+	$color-black-1:#111;
+	$color-black-2:#99a4b0;
+	$color-black-3:#e7e7e7;
+	$color-black-4:#222;
+	$color-black-5:#050a19;
+	$color-black-6:#abb4bc;
+	$color-black-7:#ddd;
+	$color-custom-1:#0069DB;
+	$color-custom-2:#9B9B9B;
+	$color-custom-3:#9B9B9B;
+	$color-custom-4:#595959;
+	$color-custom-6:#BFBFBF;
+	$color-custom-7:#333;
+	$color-custom-8:#0568db;
+	$color-custom-9:#878787;
+	$color-custom-10:#35AA47;
+	$color-custom-11:#FF0000;
+	$color-custom-12:#5F5F5F;
+	$color-custom-13:#464646;
+	$color-custom-14:#D9D9D9;
+	$color-custom-15:#48DE64;
+	$color-custom-16:#B6B6B6;
+	$color-custom-17:#0069DB;
+	$color-custom-18:#0D0D0D;
+	$color-custom-19:#EEEEEE;
+	$color-custom-20:#e5e5e5;
+	$color-custom-21:#F2F2F2;
+	$color-custom-22:#6A6A6A;
+	$color-custom-23:#FC0000;
+	$color-custom-24:#D50202;
+	$color-custom-25:#E6F2FF;
+	$color-custom-26:#010101;
+	$color-custom-27:#e8eaef;
+	$color-custom-28:#C9E2FE;
+	$color-custom-29:#0076F6;
+	$color-custom-30:#0071ec;
+	$color-custom-31:#4F4F4F;
+	$color-custom-32:#0052AB;
+	$color-custom-33:#c9d4e5;
+	$color-custom-34:#2B2B2B;
+	$border-color:#eeeff3;
+	$border-color-1:#eeeff2;
+	$border-color-2:#0068ff;
+	$font-size-14:14px;
+/*== End Color ==*/
+
+$glide-class: 'glide' !default;
+$glide-element-separator: '__' !default;
+$glide-modifier-separator: '--' !default;

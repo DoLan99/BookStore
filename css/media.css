@@ -1,0 +1,200 @@
+/* X-Small devices (portrait phones, less than 576px) */
+
+
+/* No media query for `xs` since this is the default in Bootstrap */
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    /*=================================== Menu ===================================*/
+    .header {
+        padding-left: 0px;
+        padding-right: 100px;
+    }
+    .logo {
+        width: 160px;
+        height: 90px;
+        margin-top: 0px;
+    }
+    .form--search {
+        left: 0px;
+    }
+    .form--search input[type='search'] {
+        width: 230px;
+    }
+    .list--menu ul li {
+        margin-right: 20px;
+        padding-right: 0px;
+    }
+    .btn--search {}
+    /*=================================== Popular ===================================*/
+    .section--popular__header h1 {
+        font-size: 20px;
+    }
+    .section--popular__items img {
+        width: 100%;
+    }
+    .section--products__heard h2 {
+        font-size: 20px;
+    }
+    .section--products__items img {
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .section--products__items h5 {
+        font-size: 12px;
+    }
+    /* =================================== That wall =================================== */
+    .btn--wall {
+        top: 32%;
+        left: 33%;
+        box-shadow: 1px 1px 10px #000009;
+    }
+    /* =================================== Product of the Month =================================== */
+    .section--month__header h1 {
+        font-size: 20px;
+    }
+    .section--month__items h6 {
+        font-size: 13px;
+    }
+    .section--month__img {
+        height: 187px;
+        width: 55%;
+        margin-left: 90px;
+        border-radius: 100%;
+        background-position: center;
+        background: url(/images/wordpress_produtc.png) no-repeat;
+        background-size: cover;
+    }
+    /*=================================== New Release ===================================*/
+    .section--products__heard h2::before {
+        content: "";
+        width: 25%;
+        height: 10%;
+        background-color: red;
+        position: absolute;
+        top: 30px;
+        right: 42%;
+        border-radius: 10px;
+    }
+    .section--products__items h5 {
+        margin: 20px 0px;
+    }
+    .section--popular_button button {
+        font-size: 10px;
+    }
+    .section--products_release::after {
+        content: "";
+        display: block;
+        width: 85px;
+        height: 4px;
+        background-color: red;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 10px;
+        left: 30%;
+    }
+    /*=================================== reviews ===================================*/
+    .section--reviews__img {
+        padding: 0px;
+    }
+    .section--reviews__img img {
+        width: 70%;
+    }
+    .section--reviews__content {
+        padding: 0px 100px 0px 30px;
+    }
+    .section--reviews__content h1 {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+    .section--reviews__content span {
+        font-size: 10px;
+    }
+    .section--reviews__content h6 {
+        font-size: 10px;
+    }
+    /*=================================== Pricing ===================================*/
+    .plan-features~a {
+        left: 25%;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    body {
+        width: 100%;
+    }
+    /*=================================== Menu ===================================*/
+    .list--menu {
+        margin-top: 0px;
+        padding-right: 0px;
+    }
+    .form--search input[type='search'] {
+        width: 250px;
+    }
+    .form--search {}
+    /*=================================== Popular ===================================*/
+    .section--popular__header h1 {
+        font-size: 20px;
+    }
+    .section--popular__items img {
+        width: 100%;
+    }
+    /* =================================== Products =================================== */
+    .section--products__heard h2 {
+        font-size: 25px;
+    }
+    .section--products__heard h2::before {
+        right: 53%;
+    }
+    .section--products_img img {
+        width: 100%;
+    }
+    .section--products__items h5 {
+        font-size: 14px;
+    }
+    /* =================================== That wall =================================== */
+    .btn--wall {
+        position: absolute;
+        top: 70%;
+        left: 37%;
+    }
+    /* =================================== Product of the Month =================================== */
+    .section--month__header h1 {
+        font-size: 20px;
+    }
+    /* =================================== subscribes =================================== */
+    .section--subscribes__header h1 {
+        font-size: 20px;
+    }
+    .section--subscribes__header h4 {
+        font-size: 15px;
+    }
+    /*=================================== Foooter ===================================*/
+    .section--footer {
+        padding-bottom: 10px;
+    }
+    .section--footer__pay {
+        margin-top: 10px;
+    }
+    .section--footer__pay span {
+        margin: 0px 6px;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (max-width: 1400px) {}
