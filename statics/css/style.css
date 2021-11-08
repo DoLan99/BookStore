@@ -446,7 +446,7 @@ section.section_Subscribe input { background: #EFEFEF; height: 48px; width: 100%
 .section_feedback_it .section_feedback_icon { margin-bottom: 15px; }
 .section_feedback_it .section_feedback_name { font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; color: #3A3A3A; margin-top: 29px; }
 
-.section_feedback { padding: 55px 0; }
+.section_feedback { padding: 55px 0; background-color: #FAFBFD;}
 .section_feedback .slick-prev { font-size: 0 !important; line-height: 0 !important; position: absolute !important; top: 50% !important; display: block; width: 40px !important; height: 40px !important; padding: 0 !important; -webkit-transform: translate(0, -50%) !important; transform: translate(0, -50%) !important; cursor: pointer; border: none; outline: none; background: #E5E5E5; border-radius: 2px; z-index: 99; left: 0; line-height: 40px !important; }
 .section_feedback .slick-prev:hover { background: #D2B480; }
 .section_feedback .slick-prev:hover::before { color: #fff; }
