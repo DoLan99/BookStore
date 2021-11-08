@@ -456,7 +456,9 @@ section.section_Subscribe input { background: #EFEFEF; height: 48px; width: 100%
 .section_feedback .slick-prev:before { content: '\f104' !important; font-family: "Font Awesome 5 Pro"; font-size: 14px; color: #000; }
 .section_feedback .slick-next:before { content: '\f105'; font-family: "Font Awesome 5 Pro"; font-size: 14px; color: #000; }
 .section_feedback .slick-prev.slick-disabled:before, .section_feedback .slick-next.slick-disabled:before { opacity: .25; }
-
+.slick-list { 
+  padding: 0px 50px;
+}
 /*== Edit By DTM Reponsive ===*/
 
 /*# sourceMappingURL=style.css.map */
