@@ -218,7 +218,8 @@ table { width: 100% !important; }
 @media (min-width: 1200px) { .container { width: 1200px; max-width: 100%; }
   .col-xl-20 { -webkit-box-flex: 0; -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%; } }
 .header { position: relative; }
-.header_top { padding: 20px 0; }
+.header_top { min-height: 60px; }
+.header_logo { padding: 5px 0px; }
 .header_right { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .header_right > ul { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .header_right > ul > li { position: relative; }
@@ -332,11 +333,13 @@ ul { padding: 0; margin: 0; }
 .section_why .section_why_name { font-style: normal; font-weight: 600; font-size: 20px; color: #000; max-width: 268px; margin: auto; margin-bottom: 18px; line-height: 30px; height: 60px; }
 .section_why .section_why_dess { font-style: normal; font-weight: normal; font-size: 16px; line-height: 30px; color: #7A7A7A; min-height: 150px; }
 
-.section_products { position: relative; padding: 60px 0; }
+.section_products { position: relative; padding: 60px 0; background-color: #FBFBFB; }
 .section_products #nav-tab { border: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 48px; }
-.section_products #nav-tab button { border: unset; font-style: normal; font-weight: normal; font-size: 23px; line-height: 29px; color: #B6B6B6; font-family: "Calisto MT"; position: relative; }
+.section_products #nav-tab button { border: unset; font-style: normal; font-weight: normal; font-size: 25px; line-height: 29px; color: #B6B6B6; font-family: "Calisto MT"; position: relative; }
 .section_products #nav-tab button.active { color: #000; }
-.section_products #nav-tab button.active:after { content: ""; width: 36px; height: 2px; background: #FC0D1B; position: absolute; bottom: 0; left: 0; right: 0; margin: auto; }
+.section_products #nav-profile-tab { padding-left: 120px; }
+.section_products #nav-home-tab.active:after { content: ""; width: 36px; height: 2px; background: #FC0D1B; position: absolute; bottom: 0; left: 0px; right: 0; margin: auto; }
+.section_products #nav-profile-tab.active:after { content: ""; width: 36px; height: 2px; background: #FC0D1B; position: absolute; bottom: 0; left: 100px; right: 0; margin: auto; }
 
 .section_products_it .section_products_it_img { height: 220px; position: relative; overflow: hidden; background: #FFFFFF; -webkit-box-shadow: 0px 0px 14px rgba(186, 192, 202, 0.6); box-shadow: 0px 0px 14px rgba(186, 192, 202, 0.6); }
 .section_products_it .section_products_it_img img { position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; max-width: 100%; max-height: 100%; padding: 15px; }
@@ -345,7 +348,7 @@ ul { padding: 0; margin: 0; }
 .section_products_it_title { font-style: normal; font-weight: normal; font-size: 17px; line-height: 22px; text-align: center; padding: 24px 0; font-family: "Calisto MT"; }
 .section_products_it_title a { color: #4A4A4A; }
 
-.section_it_btn { position: relative; text-align: center; }
+.section_it_btn { position: relative; text-align: center; padding-top: 15px; }
 .section_it_btn a { background: #164F77 !important; border-radius: 18px; border-color: #164F77 !important; font-style: normal; font-weight: normal; font-size: 16px; line-height: 45px; color: #fff; padding: 0 36px; display: inline-block; text-transform: uppercase; }
 .section_it_btn a:hover { opacity: .8; }
 
