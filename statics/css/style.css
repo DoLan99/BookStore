@@ -404,7 +404,7 @@ ul { padding: 0; margin: 0; }
 .section_pirce ul.row > li.col-xl-20:nth-child(5) .section_pirce_vnd { color: #F753A4; }
 .section_pirce ul.row > li.col-xl-20:nth-child(5) .section_pirce_btn a { background: #F753A4; }
 
-.section_Subscribe { position: relative; padding: 40px 0; }
+.section_Subscribe { position: relative; padding: 40px 0; background: #FCF9FC;}
 
 .section_Subscribe_title { font-style: normal; font-weight: 600; font-size: 38px; line-height: 60px; color: #000; text-align: center; margin-bottom: 9px; }
 
