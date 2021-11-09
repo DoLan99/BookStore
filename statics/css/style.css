@@ -770,6 +770,12 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
 .tp-bullets.preview4 .bullet:hover, .tp-bullets.preview4 .bullet.selected { -webkit-box-shadow: none; box-shadow: none; background: white !important; width: 6px !important; height: 6px !important; border: 5px solid black !important; }
 
 @media only screen and (max-width: 767px) { .tparrows.preview4 { width: 20px; height: 80px; }
+  .header_category {display: none;}
+  .header_top_left{display: inline;}
+  .header_search {width: 100%;}
+  .section_webcome {margin: 20px 0 0px !important;padding: 22px 0 50px !important;}
+  .section_popular .section_popular_items .section_popular_items_img {height: 146px !important;}
+  .section_webcome::before {background-size: 100% !important;}
   .tparrows.preview4:after { width: 20px; height: 80px; line-height: 80px; font-size: 14px; }
   .tparrows.preview1 .tp-arr-allwrapper, .tparrows.preview2 .tp-arr-allwrapper, .tparrows.preview3 .tp-arr-allwrapper, .tparrows.preview4 .tp-arr-allwrapper { display: none !important; } }
 /*************************************** -	RESPONSIVE SETTINGS 	-
