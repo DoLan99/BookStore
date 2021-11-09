@@ -772,6 +772,9 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
 @media only screen and (max-width: 767px) { .tparrows.preview4 { width: 20px; height: 80px; }
   .header_category {display: none;}
   .header_top_left{display: inline;}
+  #nav-tab {
+    flex-wrap: inherit;
+  }
   .header_search {width: 100%;}
   .section_webcome {margin: 20px 0 0px !important;padding: 22px 0 50px !important;}
   .section_popular .section_popular_items .section_popular_items_img {height: 146px !important;}
