@@ -914,7 +914,7 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
 .tp-caption a:hover { opacity: .8; }
 
 .header { position: relative; }
-.header_top { padding: 20px 0; }
+.header_top { padding: 5px 0; }
 .header_right { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .header_right > ul { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .header_right > ul > li { position: relative; }
