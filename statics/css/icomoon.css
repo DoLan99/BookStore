@@ -1,19 +1,19 @@
 @font-face {
-    font-family: "icomoon";
-    src: url("../fonts/icomoon/icomoon.eot");
-    src: url("../fonts/icomoon/icomoon.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon/icomoon.ttf") format("truetype"),
-    url("../fonts/icomoon/icomoon.woff") format("woff"),
-    url("../fonts/icomoon/icomoon.svg#icomoon") format("svg");
+    font-family: 'icomoonio';
+    src: url('https://i.icomoon.io/public/48159919ac/icomoonio/icomoonio.eot');
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'icomoonio';
     font-weight: normal;
     font-style: normal;
+    font-display: block;
   }
   
-  
-  [class^="ico-"], [class*=" ico-"] {
+  [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
+    font-family: 'icomoonio' !important;
+    speak: never;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -25,117 +25,220 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .ico-heart:before {
-    content: "\e900";
-  }
-  .ico-eye:before {
+  .icon-map:before {
     content: "\e901";
   }
-  .ico-comments:before {
-    content: "\e902";
+  .icon-guide:before {
+    content: "\e901";
   }
-  .ico-calendar-alt:before {
-    content: "\e903";
+  .icon-dualtone:before {
+    content: "\e901";
   }
-  .ico-play:before {
-    content: "\e904";
+  .icon-enter:before {
+    content: "\e900";
   }
-  .ico-target:before {
-    content: "\e905";
+  .icon-signin:before {
+    content: "\e900";
   }
-  .ico-search:before {
-    content: "\e906";
+  .icon-login:before {
+    content: "\e900";
   }
-  .ico-faq:before {
-    content: "\e907";
+  .icon-film:before {
+    content: "\e604";
   }
-  .ico-analytics:before {
-    content: "\e908";
+  .icon-import2:before {
+    content: "\e038";
   }
-  .ico-globe:before {
-    content: "\e90c";
+  .icon-uniE02C:before {
+    content: "\e02c";
   }
-  .ico-book:before {
-    content: "\e909";
+  .icon-uniE000:before {
+    content: "\e000";
   }
-  .ico-people:before {
-    content: "\e90a";
+  .icon-uniE001:before {
+    content: "\e001";
   }
-  .ico-hat:before {
-    content: "\e90b";
+  .icon-uniE002:before {
+    content: "\e002";
   }
-  .ico-marketing:before {
-    content: "\e90d";
+  .icon-uniE003:before {
+    content: "\e003";
   }
-  .ico-humanities:before {
-    content: "\e90e";
+  .icon-uniE005:before {
+    content: "\e005";
   }
-  .ico-business:before {
-    content: "\e90f";
+  .icon-uniE006:before {
+    content: "\e006";
   }
-  .ico-math:before {
-    content: "\e910";
+  .icon-uniE007:before {
+    content: "\e007";
   }
-  .ico-health:before {
-    content: "\e911";
+  .icon-uniE008:before {
+    content: "\e008";
   }
-  .ico-science:before {
-    content: "\e912";
+  .icon-uniE009:before {
+    content: "\e009";
   }
-  .ico-technology:before {
-    content: "\e913";
+  .icon-uniE00A:before {
+    content: "\e00a";
   }
-  .ico-map-marker:before {
-    content: "\e915";
+  .icon-uniE00B:before {
+    content: "\e00b";
   }
-  .ico-phone:before {
-    content: "\e914";
+  .icon-uniE004:before {
+    content: "\e004";
   }
-  .ico-fax:before {
-    content: "\e916";
+  .icon-uniE00C:before {
+    content: "\e00c";
   }
-  .ico-envelope:before {
-    content: "\e917";
+  .icon-uniE00D:before {
+    content: "\e00d";
   }
-  .ico-arrow-right:before {
-    content: "\e918";
+  .icon-uniE00E:before {
+    content: "\e00e";
   }
-  .ico-arrow-left:before {
-    content: "\e919";
+  .icon-uniE00F:before {
+    content: "\e00f";
   }
-  .ico-lifestyle:before {
-    content: "\e91a";
+  .icon-uniE010:before {
+    content: "\e010";
   }
-  .ico-video:before {
-    content: "\e91b";
+  .icon-uniE011:before {
+    content: "\e011";
   }
-  .ico-university:before {
-    content: "\e91c";
+  .icon-uniE012:before {
+    content: "\e012";
   }
-  .ico-tags:before {
-    content: "\e91d";
+  .icon-uniE013:before {
+    content: "\e013";
   }
-  .ico-watch:before {
-    content: "\e91e";
+  .icon-uniE014:before {
+    content: "\e014";
   }
-  .ico-star:before {
-    content: "\e91f";
+  .icon-uniE015:before {
+    content: "\e015";
   }
-  .ico-money:before {
-    content: "\e920";
+  .icon-uniE016:before {
+    content: "\e016";
   }
-  .ico-clock:before {
-    content: "\e921";
+  .icon-uniE017:before {
+    content: "\e017";
   }
-  .ico-users:before {
-    content: "\e922";
+  .icon-uniE018:before {
+    content: "\e018";
   }
-  .ico-graduate:before {
-    content: "\e923";
+  .icon-uniE019:before {
+    content: "\e019";
   }
-  .ico-cap:before {
-    content: "\e924";
+  .icon-uniE01A:before {
+    content: "\e01a";
   }
-  .ico-book-solid:before {
-    content: "\e925";
+  .icon-uniE01C:before {
+    content: "\e01c";
   }
+  .icon-uniE01D:before {
+    content: "\e01d";
+  }
+  .icon-uniE01E:before {
+    content: "\e01e";
+  }
+  .icon-uniE01F:before {
+    content: "\e01f";
+  }
+  .icon-uniE020:before {
+    content: "\e020";
+  }
+  .icon-uniE021:before {
+    content: "\e021";
+  }
+  .icon-uniE01B:before {
+    content: "\e01b";
+  }
+  .icon-uniE022:before {
+    content: "\e022";
+  }
+  .icon-uniE023:before {
+    content: "\e023";
+  }
+  .icon-uniE024:before {
+    content: "\e024";
+  }
+  .icon-uniE025:before {
+    content: "\e025";
+  }
+  .icon-uniE026:before {
+    content: "\e026";
+  }
+  .icon-uniE027:before {
+    content: "\e027";
+  }
+  .icon-uniE028:before {
+    content: "\e028";
+  }
+  .icon-uniE02A:before {
+    content: "\e02a";
+  }
+  .icon-uniE02B:before {
+    content: "\e02b";
+  }
+  .icon-uniE02D:before {
+    content: "\e02d";
+  }
+  .icon-uniE02E:before {
+    content: "\e02e";
+  }
+  .icon-uniE02F:before {
+    content: "\e02f";
+  }
+  .icon-uniE030:before {
+    content: "\e030";
+  }
+  .icon-uniE031:before {
+    content: "\e031";
+  }
+  .icon-uniE032:before {
+    content: "\e032";
+  }
+  .icon-uniE033:before {
+    content: "\e033";
+  }
+  .icon-uniE034:before {
+    content: "\e034";
+  }
+  .icon-uniE035:before {
+    content: "\e035";
+  }
+  .icon-uniE037:before {
+    content: "\e037";
+  }
+  .icon-uniE036:before {
+    content: "\e036";
+  }
+  .icon-uniE03C:before {
+    content: "\e03c";
+  }
+  .icon-uniE039:before {
+    content: "\e039";
+  }
+  .icon-question:before {
+    content: "\e029";
+  }
+  .icon-stack:before {
+    content: "\e061";
+  }
+  .icon-rulers:before {
+    content: "\e2ed";
+  }
+  .icon-liga2:before {
+    content: "\e600";
+  }
+  .icon-screen:before {
+    content: "\e601";
+  }
+  .icon-mobile:before {
+    content: "\e602";
+  }
+  .icon-tablet:before {
+    content: "\e603";
+  }
+  
