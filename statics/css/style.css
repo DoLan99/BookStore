@@ -214,7 +214,9 @@ table { width: 100% !important; }
 
 /*=== Custom Mobile Col ==*/
 @media only screen and (max-width: 480px) { .full-xs { width: 100% !important; -webkit-box-flex: 0; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } }
-@media (min-width: 992px) { .container { width: 960px; max-width: 100%; }.header_top_left .header_category .mega-menu-col {display: table-cell;width: 2000px;padding: 0 15px;} }
+@media (min-width: 992px) { .container { width: 960px; max-width: 100%; }.header_top_left .header_category .mega-menu-col {display: table-cell;width: 2000px;padding: 0 15px;} .header_top_left .header_category .mega-menu-col:first-child {
+  border-left: none;
+}}
 /*== Custom Container ==*/
 @media (min-width: 1200px) { .container { width: 1230px; max-width: 100%; }
   .col-xl-20 { -webkit-box-flex: 0; -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%; } 
@@ -222,6 +224,7 @@ table { width: 100% !important; }
     border-radius: 5px;
     border-bottom: 4px solid #f3e500;
     margin-top: 5px;
+    width: 600px;
     text-align: left;
     list-style: none;
     padding: 14px 0 10px;
@@ -232,8 +235,25 @@ table { width: 100% !important; }
     *width: 315px;
     z-index: 99;
   }
-  .header_top_left .header_category .mega-menu ul {min-width: 10em;}
+  .header_top_left .header_category .mega-menu ul {min-width: 10em;box-shadow: none;
+    padding: 0;
+    background: transparent;
+    margin: 0;
+    list-style: none;}
   .header_top_left .header_category .mega-menu-col {padding: 0 20px;}
+  .header_top_left .header_category li { white-space: nowrap;*white-space: normal;position: relative; }
+  .header_top_left .header_category ul li.active > a i {
+    color: #000;
+  }
+  .header_top_left .header_category ul a i {
+    font-size: 31px;
+    margin-right: 18px;
+    padding: 3px;
+  }
+  /* .header_top_left .header_category i[class] {
+    margin-right: 7px;
+    font-size: 14px;
+  } */
 }
 @font-face { font-family: 'revicons'; src: url("../font/revicons.eot?5510888"); src: url("../font/revicons.eot?5510888#iefix") format("embedded-opentype"), url("../font/revicons.woff?5510888") format("woff"), url("../font/revicons.ttf?5510888") format("truetype"), url("../font/revicons.svg?5510888#revicons") format("svg"); font-weight: normal; font-style: normal; }
 [class^="revicon-"]:before, [class*=" revicon-"]:before { font-family: "revicons"; font-style: normal; font-weight: normal; speak: none; display: inline-block; text-decoration: inherit; width: 1em; margin-right: .2em; text-align: center; /* opacity: .8; */ /* For safety - reset parent styles, that can break glyph codes*/ font-variant: normal; text-transform: none; /* fix buttons height, for twitter bootstrap */ line-height: 1em; /* Animation center compensation - margins should be symmetric */ /* remove if not needed */ margin-left: .2em; /* you can be more comfortable with increased icons size */ /* font-size: 120%; */ /* Uncomment for 3D effect */ /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
@@ -985,9 +1005,15 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
 .header_right > ul > li .item_small li:hover > a { color: #ffb416; }
 .header_right > ul > li .item_small li:hover > a.caret-down:before { border-color: #ffb416 transparent transparent transparent; }
 .header_right > ul > li:hover .item_small { overflow: visible; max-height: 3000px; max-width: 3000px; opacity: 1; -webkit-transform: perspective(600px) rotateX(0deg); transform: perspective(600px) rotateX(0deg); -webkit-transition: -webkit-transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end; -webkit-transition: opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end, -webkit-transform 0.5s ease; transition: opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end, -webkit-transform 0.5s ease; transition: transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end; transition: transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end, -webkit-transform 0.5s ease; }
-.header_top_left .header_category:hover .mega-menu { display: block; }
-.header_top_left .header_category .mega-menu { min-width: 660px;padding: 18px 0 24px; }
+.header_top_left .header_category .mega-menu { min-width: 660px;padding: 18px 0 24px; position: absolute; }
 .header_top_left .header_category .mega-menu .mega-menu-row  { display: flex; }
+.header_top_left .header_category .mega-menu ul.sub-menu.mega-menu-row li a {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  padding: 3px 5px 4px;
+}
 
 .header_search { position: relative; }
 .header_search input { border: 1px solid #C4C4C4; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 8px; height: 47.66px; outline: none; -webkit-box-shadow: unset !important; box-shadow: unset !important; padding-right: 60px !important; min-width: 338px; }

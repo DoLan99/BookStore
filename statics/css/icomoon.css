@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon/icomoon.eot");
+    src: url("../fonts/icomoon/icomoon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff") format("woff"),
+    url("../fonts/icomoon/icomoon.svg#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  [class^="ico-"], [class*=" ico-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ico-heart:before {
+    content: "\e900";
+  }
+  .ico-eye:before {
+    content: "\e901";
+  }
+  .ico-comments:before {
+    content: "\e902";
+  }
+  .ico-calendar-alt:before {
+    content: "\e903";
+  }
+  .ico-play:before {
+    content: "\e904";
+  }
+  .ico-target:before {
+    content: "\e905";
+  }
+  .ico-search:before {
+    content: "\e906";
+  }
+  .ico-faq:before {
+    content: "\e907";
+  }
+  .ico-analytics:before {
+    content: "\e908";
+  }
+  .ico-globe:before {
+    content: "\e90c";
+  }
+  .ico-book:before {
+    content: "\e909";
+  }
+  .ico-people:before {
+    content: "\e90a";
+  }
+  .ico-hat:before {
+    content: "\e90b";
+  }
+  .ico-marketing:before {
+    content: "\e90d";
+  }
+  .ico-humanities:before {
+    content: "\e90e";
+  }
+  .ico-business:before {
+    content: "\e90f";
+  }
+  .ico-math:before {
+    content: "\e910";
+  }
+  .ico-health:before {
+    content: "\e911";
+  }
+  .ico-science:before {
+    content: "\e912";
+  }
+  .ico-technology:before {
+    content: "\e913";
+  }
+  .ico-map-marker:before {
+    content: "\e915";
+  }
+  .ico-phone:before {
+    content: "\e914";
+  }
+  .ico-fax:before {
+    content: "\e916";
+  }
+  .ico-envelope:before {
+    content: "\e917";
+  }
+  .ico-arrow-right:before {
+    content: "\e918";
+  }
+  .ico-arrow-left:before {
+    content: "\e919";
+  }
+  .ico-lifestyle:before {
+    content: "\e91a";
+  }
+  .ico-video:before {
+    content: "\e91b";
+  }
+  .ico-university:before {
+    content: "\e91c";
+  }
+  .ico-tags:before {
+    content: "\e91d";
+  }
+  .ico-watch:before {
+    content: "\e91e";
+  }
+  .ico-star:before {
+    content: "\e91f";
+  }
+  .ico-money:before {
+    content: "\e920";
+  }
+  .ico-clock:before {
+    content: "\e921";
+  }
+  .ico-users:before {
+    content: "\e922";
+  }
+  .ico-graduate:before {
+    content: "\e923";
+  }
+  .ico-cap:before {
+    content: "\e924";
+  }
+  .ico-book-solid:before {
+    content: "\e925";
+  }
