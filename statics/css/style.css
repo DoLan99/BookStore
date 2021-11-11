@@ -832,7 +832,7 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
 .tp-leftarrow.preview4:after { transform-origin: 0% 0%; -webkit-transform-origin: 0% 0%; }
 @media only screen and (min-width: 1680px) {
   .section_webcome {
-    margin: 104px 0 38px !important;
+    margin: 53px 0 20px !important;
     padding: 190px 0 100px !important;
   }
   .section_webcome::before {
