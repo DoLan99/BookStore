@@ -510,6 +510,7 @@ img.tp-slider-alternative-image { width: 100%; height: auto; }
 
 .fullwidthbanner-container { width: 100%; position: relative; padding: 0; overflow: hidden; }
 .fullwidthbanner-container .fullwidthabanner { width: 100%; position: relative; }
+.container .section_footer_link { padding-top: 127px;padding-left: 95px;}
 
 /****************************************************************
  -	SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID   -
@@ -838,7 +839,7 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
     background-size: 40% !important;
   }
   .container {
-    padding-bottom: 65px;
+    padding-bottom: 42px;
     padding-top: 4px;
   }
   .container{
@@ -1090,7 +1091,7 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
 .section_footer .section_footer_payment ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .section_footer .section_footer_payment ul li { margin-left: 25px; }
 .section_footer .section_footer_payment ul li span { border: 1px solid #888B8F; width: 72px; height: 48px; display: inline-block; text-align: center; line-height: 48px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
-.section_footer .copyright { padding: 15px 0; background: #fff; text-align: right; font-style: normal; font-weight: normal; font-size: 12px; line-height: 18px; color: #000; }
+.section_footer .copyright { padding: 15px 0; background: #fff; text-align: right; font-style: normal; font-weight: normal; font-size: 12px; line-height: 18px; color: #000; height: 69px;}
 .section_footer .copyright span { display: block; }
 
 html { margin: 0px; height: 100%; width: 100%; }
