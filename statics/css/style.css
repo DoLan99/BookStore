@@ -854,6 +854,9 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
   .section_it_btn { 
     padding-top: 20px;
    }
+  .last_product {
+    padding-top: 0px;
+  }
   .section_banners {
     max-height: 540px;
     overflow: hidden;
@@ -867,6 +870,12 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
     padding: 0 100px !important;
   }
   .margin-bottom-30 { margin-bottom: 45px !important; }
+}
+@media only screen and (min-width: 1920px) {
+  .section_banners {
+    max-height: 720px;
+    overflow: hidden;
+}
 }
 @media only screen and (min-width: 768px) { .tparrows.preview4:hover:after { -webkit-transform: rotateY(-90deg); transform: rotateY(-90deg); }
   .tp-leftarrow.preview4:hover:after { -webkit-transform: rotateY(90deg); transform: rotateY(90deg); }
