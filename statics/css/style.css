@@ -885,7 +885,21 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
   .section_banners {
     max-height: 650px;
     overflow: hidden;
+  }
 }
+@media only screen and (min-width: 2880px) {
+  .section_banners {
+    max-height: 850px;
+    overflow: hidden;
+  }
+  .section_webcome{
+    margin: 49px 0 0px !important;
+    padding: 107px 0 61px !important;
+    height: 511px;
+  }
+  .section_webcome::before {
+    background-size: 28% !important;
+  }
 }
 @media only screen and (min-width: 768px) { .tparrows.preview4:hover:after { -webkit-transform: rotateY(-90deg); transform: rotateY(-90deg); }
   .tp-leftarrow.preview4:hover:after { -webkit-transform: rotateY(90deg); transform: rotateY(90deg); }
