@@ -153,4 +153,18 @@ jQuery(document).ready(function() {
     stopOnHover:false,
     navigationText: ["",""]
   });
+  jQuery('.menu_mobile_btn .toggle_menu').on('click', function(){
+	jQuery(this).toggleClass('mobile-active');
+	jQuery('.header').toggleClass('mobile-active');
+		
+});
+jQuery('.sf-menu a').on('click', function(){
+	var $this = $(this);
+	//If this is a local link or item with sumbenu - not toggling menu
+	if (($this.hasClass('sf-with-ul')) || !($this.attr('href').charAt(0) === '#')) {
+		return;
+	}
+	$this.closest('.header').toggleClass('mobile-active').find('.toggle_menu').toggleClass('mobile-active');
+});
+
 });
