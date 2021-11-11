@@ -1148,7 +1148,7 @@ ul { padding: 0; margin: 0; }
 
 .section_products { position: relative; padding: 60px 0; background: #FBFBFB;}
 .section_products #nav-tab { border: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 48px; }
-.section_products #nav-tab button { border: unset; font-style: normal; font-weight: normal; font-size: 25px; line-height: 29px; color: #B6B6B6; font-family: "Calisto MT"; position: relative; padding: 0 75px;margin-right: -14px;display: block !important;}
+.section_products #nav-tab button { background: #FBFBFB;border: unset; font-style: normal; font-weight: normal; font-size: 25px; line-height: 29px; color: #B6B6B6; font-family: "Calisto MT"; position: relative; padding: 0 75px;margin-right: -14px;display: block !important;}
 .section_products #nav-tab button.active { color: #000; }
 .section_products #nav-tab button.active:after { content: ""; width: 36px; height: 2px; background: #FC0D1B; position: absolute; bottom: 0; left: 0; right: 0; top: 40px; margin: auto; }
 
