@@ -1148,13 +1148,13 @@ ul { padding: 0; margin: 0; }
 .section_products #nav-tab { border: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 48px; }
 .section_products #nav-tab button { border: unset; font-style: normal; font-weight: normal; font-size: 25px; line-height: 29px; color: #B6B6B6; font-family: "Calisto MT"; position: relative; padding: 0 75px;margin-right: -14px;display: block !important;}
 .section_products #nav-tab button.active { color: #000; }
-.section_products #nav-tab button.active:after { content: ""; width: 36px; height: 2px; background: #FC0D1B; position: absolute; bottom: 0; left: 0; right: 0; margin: auto; }
+.section_products #nav-tab button.active:after { content: ""; width: 36px; height: 2px; background: #FC0D1B; position: absolute; bottom: 0; left: 0; right: 0; top: 40px; margin: auto; }
 
 .section_products_it .section_products_it_img { height: 220px; position: relative; overflow: hidden; background: #FFFFFF; -webkit-box-shadow: 0px 0px 14px rgba(186, 192, 202, 0.6); box-shadow: 0px 0px 14px rgba(186, 192, 202, 0.6); }
 .section_products_it .section_products_it_img img { position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; max-width: 100%; max-height: 100%; padding: 15px; }
 .section_products_it:hover img { -webkit-transform: scale(1); transform: scale(1.1); }
 
-.section_products_it_title { font-style: normal; font-weight: normal; font-size: 17px; line-height: 22px; text-align: center; padding: 24px 0; font-family: "Calisto MT"; }
+.section_products_it_title { font-style: normal; font-weight: normal; font-size: 19px; line-height: 22px; text-align: center; padding: 24px 0; font-family: "Calisto MT"; }
 .section_products_it_title a { color: #4A4A4A; }
 
 .section_it_btn { position: relative; text-align: center; }
@@ -1256,12 +1256,12 @@ text-align: center;
 .section_feedback_it .section_feedback_img img { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; }
 
 .section_feedback_cont { position: relative; }
-.section_feedback_cont h3 { font-family: Calisto MT; font-style: normal; font-weight: normal; font-size: 38px; line-height: 60px; margin-bottom: 10px; }
+.section_feedback_cont h3 { font-family: Calisto MT; font-style: normal; font-weight: normal; font-size: 40px; line-height: 60px; margin-bottom: 10px; }
 
 .section_feedback_it { padding: 0 30px; }
-.section_feedback_it .section_feedback_des { font-style: normal; font-weight: 300; font-size: 18px; line-height: 30px; color: #565B60; }
+.section_feedback_it .section_feedback_des { font-style: normal; font-weight: 300; font-size: 20px; line-height: 30px; color: #565B60; }
 .section_feedback_it .section_feedback_icon { margin-bottom: 15px; }
-.section_feedback_it .section_feedback_name { font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; color: #3A3A3A; margin-top: 29px; }
+.section_feedback_it .section_feedback_name { font-style: normal; font-weight: 500; font-size: 20px; line-height: 30px; color: #3A3A3A; margin-top: 29px; font-family: 'Poppins';}
 
 .section_feedback { padding: 55px 0; background: #FAFBFD;}
 .section_feedback .owl-theme .owl-controls .owl-prev { font-size: 0 !important; line-height: 0 !important; position: absolute !important; top: 50% !important; display: block; width: 40px !important; height: 40px !important; padding: 0 !important; -webkit-transform: translate(0, -50%) !important; transform: translate(0, -50%) !important; cursor: pointer; border: none; outline: none; background: #E5E5E5; border-radius: 2px; z-index: 99; left: 0; line-height: 40px !important; }
