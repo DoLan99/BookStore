@@ -694,6 +694,7 @@ img.tp-slider-alternative-image { width: 100%; height: auto; }
   .header_search input {
     height: 27.66px !important;
   }
+  .section_products #nav-tab button.active:after{top: 70px;}
   .header_search_btn{width: 38px;line-height: 31.66px;} .tparrows.preview1 { width: 60px; height: 60px; line-height: 60px; font-size: 20px; }
   .tparrows.preview1:after { width: 60px; height: 60px; line-height: 60px; font-size: 20px; } 
   .tp-simpleresponsive .randomrotate {
@@ -709,6 +710,14 @@ img.tp-slider-alternative-image { width: 100%; height: auto; }
   }
   .tp-simpleresponsive .jb_title2{
     top: 95px !important;
+  }
+  .section_products #nav-tab button.active:after{top: 70px !important;}
+  section.section_Subscribe input {
+    margin-bottom: 14px;
+  }
+  .container .section_footer_link {
+    float: left;
+    padding-left: 0px;
   }
   .tp-simpleresponsive .jb-btn-1 { top: 121px !important; }
   .header_search input {
