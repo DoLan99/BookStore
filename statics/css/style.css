@@ -832,12 +832,13 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
 .tp-leftarrow.preview4:after { transform-origin: 0% 0%; -webkit-transform-origin: 0% 0%; }
 @media only screen and (min-width: 1680px) {
   .section_webcome {
-    margin: 30px 0 0px !important;
-    padding: 146px 0 100px !important;
+    margin: 38px 0 0px !important;
+    padding: 107px 0 61px !important;
+    height: 418px;
   }
   .section_webcome .webcome { padding-bottom: 85px; }
   .section_webcome::before {
-    background-size: 40% !important;
+    background-size: 35% !important;
   }
   .container {
     padding-bottom: 0px;
@@ -1128,7 +1129,7 @@ ul { padding: 0; margin: 0; }
 .section_banner .slick-prev.slick-disabled:before, .section_banner .slick-next.slick-disabled:before { opacity: .25; }
 
 .section_webcome { margin: 85px 0 36px; text-align: center; position: relative; padding: 36px 0 121px; }
-.section_webcome::before { content: ""; background-image: url(../../images/bg_webcome.png); background-repeat: no-repeat; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-size: 43%; background-position: center center; }
+.section_webcome::before { content: ""; background-image: url(../../images/bg_webcome.png); background-repeat: no-repeat; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-size: 40%; background-position: center center; }
 .section_webcome h1 { font-style: normal; font-weight: bold; font-size: 34px; line-height: 45px; color: #000; margin-bottom: 36px; font-family: "Libre Baskerville", serif; }
 .section_webcome p { font-style: normal; font-weight: normal; font-size: 18px; line-height: 30px; text-align: center; color: #000000; font-family: "Libre Baskerville", serif; }
 
@@ -1279,11 +1280,11 @@ text-align: center;
 .section_feedback .owl-theme .owl-controls .owl-prev { font-size: 0 !important; line-height: 0 !important; position: absolute !important; top: 50% !important; display: block; width: 40px !important; height: 40px !important; padding: 0 !important; -webkit-transform: translate(0, -50%) !important; transform: translate(0, -50%) !important; cursor: pointer; border: none; outline: none; background: #E5E5E5; border-radius: 2px; z-index: 99; left: 0; line-height: 40px !important; }
 .section_feedback .owl-theme .owl-controls .owl-prev:hover { background: #D2B480; }
 .section_feedback .owl-theme .owl-controls .owl-prev:hover::before { color: #fff; }
-.section_feedback .owl-next { font-size: 0 !important; line-height: 0 !important; position: absolute !important; top: 50% !important; display: block; width: 40px !important; height: 40px !important; padding: 0 !important; -webkit-transform: translate(0, -50%) !important; transform: translate(0, -50%) !important; cursor: pointer; border: none; outline: none; background: #E5E5E5; border-radius: 2px; z-index: 99; display: inline-block !important; right: 0; z-index: 99; line-height: 40px !important; }
+.section_feedback .owl-next { font-size: 0 !important; line-height: 0 !important; position: absolute !important; top: 50% !important; display: block; width: 40px !important; height: 40px !important; padding: 0 !important; -webkit-transform: translate(0, -50%) !important; transform: translate(0, -50%) !important; cursor: pointer; border: none; outline: none; background: #d2b480; border-radius: 2px; z-index: 99; display: inline-block !important; right: 0; z-index: 99; line-height: 40px !important; }
 .section_feedback .owl-next:hover { background: #D2B480; }
 .section_feedback .owl-next:hover::before { color: #fff; }
 .section_feedback .owl-prev:before { content: '\f104' !important; font-family: "Font Awesome 5 Pro"; font-size: 14px; color: #000; }
-.section_feedback .owl-next:before { content: '\f105'; font-family: "Font Awesome 5 Pro"; font-size: 14px; color: #000; }
+.section_feedback .owl-next:before { content: '\f105'; font-family: "Font Awesome 5 Pro"; font-size: 14px; color: #ffff; }
 .section_feedback .owl-prev.owl-disabled:before, .section_feedback .owl-next.owl-disabled:before { opacity: .25; }
 
 /*== Edit By DTM Reponsive ===*/
