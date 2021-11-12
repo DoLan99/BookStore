@@ -151,8 +151,9 @@ jQuery(document).ready(function() {
     pagination:false,
     navigation:true,
     stopOnHover:false,
-    navigationText: ["",""]
+    navigationText: ["",""],
   });
+  jQuery().setTimeout(".owl_feedback", 20000);
   jQuery('.menu_mobile_btn .toggle_menu').on('click', function(){
 	jQuery(this).toggleClass('mobile-active');
 	jQuery('.header').toggleClass('mobile-active');
