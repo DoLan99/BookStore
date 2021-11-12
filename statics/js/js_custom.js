@@ -153,7 +153,7 @@ jQuery(document).ready(function() {
     stopOnHover:false,
     navigationText: ["",""],
   });
-  jQuery().setTimeout(".owl_feedback", 20000);
+  jQuery(".owl_feedback").setTimeout(".owl_feedback", 20000);
   jQuery('.menu_mobile_btn .toggle_menu').on('click', function(){
 	jQuery(this).toggleClass('mobile-active');
 	jQuery('.header').toggleClass('mobile-active');
