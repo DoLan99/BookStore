@@ -150,7 +150,7 @@ jQuery(document).ready(function() {
     autoPlay:true,
     pagination:false,
     navigation:true,
-    stopOnHover:false,
+    stopOnHover:true,
     navigationText: ["",""],
   });
   jQuery('.menu_mobile_btn .toggle_menu').on('click', function(){
