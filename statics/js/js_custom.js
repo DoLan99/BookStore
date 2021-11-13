@@ -149,7 +149,7 @@ jQuery(document).ready(function() {
     items:1,
     autoPlay:true,
 	autoplayTimeout: 20000,
-	autoplaySpeed: 400,
+	autoplaySpeed: 1000,
     pagination:false,
     navigation:true,
     stopOnHover:true,
