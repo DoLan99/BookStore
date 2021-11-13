@@ -147,9 +147,7 @@ tpj(document).ready(function () {
 jQuery(document).ready(function() {
   jQuery(".owl_feedback").owlCarousel({
     items:1,
-    autoplay:true,
-    // autoplayTimeout: 1000,
-	// autoplaySpeed: 400,
+    autoPlay:true,
     pagination:false,
     navigation:true,
     stopOnHover:false,
