@@ -148,7 +148,7 @@ jQuery(document).ready(function() {
   jQuery(".owl_feedback").owlCarousel({
     items:1,
     autoPlay:true,
-	autoplayTimeout: 1000,
+	autoplayTimeout: 10000,
     pagination:false,
     navigation:true,
     stopOnHover:true,
