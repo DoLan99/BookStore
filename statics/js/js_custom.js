@@ -165,6 +165,7 @@ jQuery(document).ready(function() {
     stopOnHover:true,
     navigationText: ["",""],
   });
+  
   jQuery('.menu_mobile_btn .toggle_menu').on('click', function(){
 	jQuery(this).toggleClass('mobile-active');
 	jQuery('.header').toggleClass('mobile-active');
@@ -180,6 +181,21 @@ jQuery(document).ready(function() {
 		nav:true,
 		stopOnHover:true,
 		navigationText: ["",""],
+		margin_right:12,
+		responsive:{
+			0:{
+				category_related_products_item:1
+			},
+			600:{
+				category_related_products_item:3
+			},            
+			960:{
+				category_related_products_item:5
+			},
+			1200:{
+				category_related_products_item:6
+			}
+		}
 	});
 jQuery('.sf-menu a').on('click', function(){
 	var $this = $(this);
