@@ -8,7 +8,7 @@
 /*== End Color ==*/
 /*  Document   : reset css Created on : 11-9-2019, 12:00:00 Author     : DTM Description: Code reset SASS Main */
 html { overflow-x: hidden; /* Prevent scroll on narrow devices */ text-rendering: optimizeLegibility !important; -webkit-font-smoothing: antialiased !important; }
-
+.owl-carousel .owl-item img { width: auto;}
 p, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; -webkit-transition: all ease .5s; transition: all ease .5s; }
 
 .form-control { padding: 0 10px !important; }
@@ -1467,6 +1467,45 @@ ul { padding: 0; margin: 0; }
   color: #FFFFFF;
 }
 
+.detail_cate_info_file {
+  padding: 15px 20px;
+}
+
+.detail_cate_info_file_item, .detail_cate_info_file_left, .detail_cate_info_file_right{
+  display: inline-block;
+  float: left;
+}
+
+.detail_cate_info_file_item{
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.detail_cate_info_file_right{
+  float: right;
+}
+
+.category_related_products{
+  margin-bottom: 57px;
+}
+
+.cate_related_content {
+  margin-top: 75px;
+  border-top: 1px solid #E5E5E5;
+}
+
+.category_related_products_title{
+  position: absolute;
+  left: 50%;
+  padding: 5px 15px;
+  transform: translate(-50%, -50%);
+  background-color:white;
+}
+
+.owl_category_related_products {
+  padding-top: 70px;
+}
+
 .section_banners img { margin: auto; display: block; }
 .section_feedback_it .row {align-items: center;}
 
@@ -1695,6 +1734,31 @@ text-align: center;
   padding-left: 22px;
 }
 
+.cate_detail {
+  padding: 22px;
+}
+
+.cate_banner_detail{
+  height: 140px;
+}
+
+.cate_banner_detail .category_title {
+  padding-bottom: 20px;
+}
+
+.cate_banner_detail .cate_detail_title{
+  padding-top: 0px !important;
+}
+
+.cate_detail_title {
+  font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
 .section_news_img {
   height: 256px !important;
   border: 1px solid #E5E5E5;
@@ -1712,6 +1776,7 @@ text-align: center;
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 12px;
+  text-align: center;
 }
 
 .section_news_product_img img {
@@ -1760,4 +1825,128 @@ text-align: center;
 .pagination_right a.active, .pagination_right a:hover {
   background-color: #FFD263;
   color: #000;
+}
+
+.faq_banner{
+  height: 300px;
+  background-color: #FBF7F6;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-bottom: 117px;
+}
+
+.faq_banner h2 {
+  font-size: 60px;
+  line-height: 81px;
+  font-family: Cinzel;
+  font-weight: normal;
+  font-style: normal;
+  padding: 109px 0px;
+}
+
+.faq_content {
+  margin-bottom: 140px;
+}
+
+.faq_content_note_title{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #9A4335;
+}
+
+.faq_content_title{
+  font-family: Cinzel;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 51px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #222222;
+}
+
+.faq_content_bottom{
+  margin-top: 50px;
+}
+
+.faq_content_bottom_item {
+  border-right: 1px solid #DEDEDE;
+}
+
+.faq_content_bottom_item:nth-child(even) {
+  border: none;
+}
+
+.faq_content_bottom_title h3{
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+
+  color: #333333;
+  padding: 25px 0;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.faq_content_bottom_title.active h3 {
+  color: #9A4335;
+}
+
+.faq_content_bottom_title_right{
+  text-align: center;
+  line-height: 70px;
+}
+
+.faq_content_bottom_content {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696969;
+  display: none;
+}
+
+.faq_content_bottom_content.active {
+  display: block;
+}
+
+
+/* contact us */
+.contact_us_banner img {
+  width: 100%;
+}
+
+.contact_us_form{
+  margin: 43px 0;
+}
+
+.contact_us_form h2{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.contact_us_form p{
+  font-family: Helvetica Neue;
+  font-style: norm 
 }

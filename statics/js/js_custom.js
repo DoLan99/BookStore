@@ -159,7 +159,18 @@ jQuery(document).ready(function() {
 	jQuery(this).toggleClass('mobile-active');
 	jQuery('.header').toggleClass('mobile-active');
 		
-});
+	});
+	jQuery(".owl_category_related_products").owlCarousel({
+		items:4,
+		margin:10,
+		autoPlay:false,
+		autoplayTimeout: 20000,
+		autoplaySpeed: 1000,
+		pagination:false,
+		navigation:true,
+		stopOnHover:true,
+		navigationText: ["",""],
+	});
 jQuery('.sf-menu a').on('click', function(){
 	var $this = $(this);
 	//If this is a local link or item with sumbenu - not toggling menu
