@@ -155,6 +155,16 @@ jQuery(document).ready(function() {
     stopOnHover:true,
     navigationText: ["",""],
   });
+  jQuery(".owl_category_related_products").owlCarousel({
+    items:1,
+    autoPlay:true,
+	autoplayTimeout: 20000,
+	autoplaySpeed: 1000,
+    pagination:false,
+    navigation:true,
+    stopOnHover:true,
+    navigationText: ["",""],
+  });
   jQuery('.menu_mobile_btn .toggle_menu').on('click', function(){
 	jQuery(this).toggleClass('mobile-active');
 	jQuery('.header').toggleClass('mobile-active');
