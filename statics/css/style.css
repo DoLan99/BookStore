@@ -1405,11 +1405,11 @@ ul { padding: 0; margin: 0; }
 .section_products_it_title { font-style: normal; font-weight: normal; font-size: 19px; line-height: 22px; text-align: center; padding: 24px 0; font-family: "Calisto MT"; }
 .section_products_it_title a { color: #4A4A4A; }
 
-.section_it_btn { position: relative; text-align: right; }
+.section_it_btn { position: relative; text-align: center; }
 .section_it_btn a { background: #164F77 !important; border-radius: 18px; border-color: #164F77 !important; font-family: Lato; font-style: normal;font-weight: 900; font-size: 16px; line-height: 45px; color: #fff; padding: 0 36px; display: inline-block; text-transform: uppercase; }
 .section_it_btn a:hover { opacity: .8; }
 
-.section_it_btn_category { position: relative; text-align: center; }
+.section_it_btn_category { position: relative; text-align: right; }
 .section_it_btn_category a { background: #0AC806 !important; border-radius: 6px; border-color: #0AC806 !important; font-style: normal; font-weight: normal; font-size: 16px; line-height: 19px; color: #fff; padding: 13px 34px; display: inline-block; text-transform: uppercase; }
 .section_it_btn_category a:hover { opacity: .8; }
 
