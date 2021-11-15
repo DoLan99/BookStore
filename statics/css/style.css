@@ -1623,6 +1623,7 @@ text-align: center;
 .category_title {
   justify-content: left !important;
   padding: 40px 0;
+  padding-left: 22px;
 }
 
 .section_news_img {
