@@ -1603,7 +1603,7 @@ section.section_Subscribe input { background: #EFEFEF; height: 48px; width: 100%
 .section_news_it {
 text-align: center;
 }
-.category-container {padding-top: 33px;position: relative;padding-bottom: 57px;}
+.category-container {padding-top: 33px;position: relative;}
 .container_right {border-left: 1px solid #e5e5e5;padding-left: 31px;}
 .container_right .margin-bottom-30{padding: 0;margin-bottom: 0px !important;}
 
@@ -1698,7 +1698,7 @@ text-align: center;
 }
 
 .container_left .container_left_items li {
-  margin-top: 15px;
+  margin-top: 10px;
   display: inline-block;
   width: 100%;
 }
