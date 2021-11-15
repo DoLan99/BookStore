@@ -161,15 +161,20 @@ jQuery(document).ready(function() {
 		
 	});
 	jQuery(".owl_category_related_products").owlCarousel({
-		items:4,
+		loop:true,
 		margin:10,
-		autoPlay:false,
-		autoplayTimeout: 20000,
-		autoplaySpeed: 1000,
-		pagination:false,
-		navigation:true,
-		stopOnHover:true,
-		navigationText: ["",""],
+		nav:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:4
+			},
+		},
 	});
 jQuery('.sf-menu a').on('click', function(){
 	var $this = $(this);

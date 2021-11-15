@@ -1502,8 +1502,15 @@ ul { padding: 0; margin: 0; }
   background-color:white;
 }
 
+.category_related_products_slide{
+  margin: auto;
+  width: 1100px;
+  display: block;
+}
+
 .owl_category_related_products {
   padding-top: 70px;
+  width: 100%;
 }
 
 .section_banners img { margin: auto; display: block; }
@@ -1949,4 +1956,30 @@ text-align: center;
 .contact_us_form p{
   font-family: Helvetica Neue;
   font-style: norm 
+}
+
+.contact_us_form_input {
+  margin-top: 80px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 32px rgba(69, 89, 113, 0.19);
+}
+
+.contact_us_form_left {
+  background-color: #F4F3EC;
+  padding: 34px;
+}
+
+.contact_us_form_input h2 {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #000000;
 }
