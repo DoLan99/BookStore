@@ -1953,8 +1953,35 @@ text-align: center;
 }
 
 .contact_us_form{
-  margin: 43px 0;
-  margin-bottom: 232px;
+  padding-top: 43px;
+  padding-bottom: 232px;
+  position: relative;
+}
+
+.contact_us_form .background1{
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #F9F9F9;
+  z-index: -99;
+}
+
+.contact_us_form .background2{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url('../../images/back1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -9;
+}
+
+.contact_us_form_main {
+  z-index: 999;
 }
 
 .contact_us_form h2{
