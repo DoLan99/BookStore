@@ -1907,12 +1907,8 @@ text-align: center;
   margin-top: 50px;
 }
 
-.faq_content_bottom_item {
+.faq_content_bottom_left {
   border-right: 1px solid #DEDEDE;
-}
-
-.faq_content_bottom_item:nth-child(even) {
-  border: none;
 }
 
 .faq_content_bottom_title h3{
@@ -1936,6 +1932,11 @@ text-align: center;
 .faq_content_bottom_title_right{
   text-align: center;
   line-height: 70px;
+}
+
+.faq_content_bottom_title_right i.active{
+  transform: rotate(90deg);
+  color: #9A4335;
 }
 
 .faq_content_bottom_content {
@@ -1965,7 +1966,7 @@ text-align: center;
 }
 
 .contact_us_form .background1{
-  height: 60%;
+  height: 50%;
   width: 100%;
   position: absolute;
   top: 0%;
@@ -1980,7 +1981,7 @@ text-align: center;
   position: absolute;
   top: 0%;
   left: 0%;
-  background-image: url('../../images/back1.png');
+  background-image: url('../../images/back2.png');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -9;
