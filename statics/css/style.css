@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 @font-face { font-family: 'Calisto MT'; src: url(../fonts/Calisto-MT_9070.eot); src: url(../fonts/Calisto-MT_9070.eot?#iefix) format("embedded-opentype"), url(../fonts/Calisto-MT_9070.woff2) format("woff2"), url(../fonts/Calisto-MT_9070.woff) format("woff"), url(../fonts/Calisto-MT_9070.ttf) format("truetype"), url(../fonts/Calisto-MT_9070.svg#Calisto-MT_9070) format("svg"), url(../fonts/Calisto-MT_9070.otf) format("otf"); }
 @font-face { font-family: 'Geomanist'; src: url(../fonts/Geomanist-Regular.eot); src: url(../fonts/Geomanist-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Geomanist-Regular.otf) format("otf"), url(../fonts/Geomanist-Regular.svg#Geomanist-Regular) format("svg"), url(../fonts/Geomanist-Regular.ttf) format("truetype"), url(../fonts/Geomanist-Regular.woff) format("woff"), url(../fonts/Geomanist-Regular.woff2) format("woff2"); }
-@font-face { font-family: 'Helvetica Neue';src: url(../fonts/Helvetica-Neue-Italic.ttf) format("truetype")}
+@font-face { font-family: 'Helvetica Neue';src: url(../fonts/Helvetica-Neue-LT-Medium.ttf) format("truetype")}
 /* @font-face { font-family: 'Lato';src: url(../fonts/Lato-Black.ttf) format("truetype")} */
 @font-face { font-family: 'Lato';src: url(../fonts/Lato-Regular.ttf) format("truetype")}
 /*== Color ==*/
