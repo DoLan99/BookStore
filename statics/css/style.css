@@ -224,6 +224,18 @@ table { width: 100% !important; }
   font-size: 24px;
   line-height: 30px;
   color: #000000;
+  position: relative;
+}
+
+.categories_item_title h2::after{
+  position: absolute;
+  content: '';
+  width: 72px;
+  height: 0px;
+  left: 0;
+  bottom: -8px;
+
+  border: 2px solid #C45500;
 }
 
 /*=== Custom Mobile Col ==*/
@@ -1436,7 +1448,29 @@ ul { padding: 0; margin: 0; }
   line-height: 24px;
 
   color: #000000;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #E5E5E5;
 }
+
+.container_right_detail .share_detail{
+  display: flex;
+  margin-top: 28px;
+}
+
+.container_right_detail .share_detail .title{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.container_right_detail .share_detail .icon{
+  color: #B1B1B1;
+  margin-left: 31px;
+}
+
 .container_left .section_products_it_img {
   border: 1px solid #E5E5E5;
   box-sizing: border-box;
