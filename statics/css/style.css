@@ -1603,7 +1603,8 @@ text-align: center;
 }
 .category-container {padding-top: 33px;position: relative;}
 .container_right {border-left: 1px solid #e5e5e5;padding-left: 31px;}
-.container_right .margin-bottom-30{padding: 0;margin-bottom: 0px !important;}
+.container_right_detail {padding-left: 31px;}
+.container_right .container_right_detail .margin-bottom-30{padding: 0;margin-bottom: 0px !important;}
 
 .section_category_it { position: relative; }
 .section_category_it .section_news_img { background: #FFFFFF; border: 1px solid #e5e5e5;box-sizing: border-box; height: 220px; position: relative; overflow: hidden; }
