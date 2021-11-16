@@ -1417,7 +1417,7 @@ ul { padding: 0; margin: 0; }
 .section_it_btn_category a:hover { opacity: .8; }
 
 .product_title h2{
-  font-family: "Lato";
+  font-family: Lato;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1426,7 +1426,7 @@ ul { padding: 0; margin: 0; }
   color: #000000;
 }
 .product_description span{
-  font-family: "Lato";
+  font-family: Lato;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
