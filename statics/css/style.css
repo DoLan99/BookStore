@@ -6,7 +6,7 @@
 @font-face { font-family: 'Geomanist'; src: url(../fonts/Geomanist-Regular.eot); src: url(../fonts/Geomanist-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Geomanist-Regular.otf) format("otf"), url(../fonts/Geomanist-Regular.svg#Geomanist-Regular) format("svg"), url(../fonts/Geomanist-Regular.ttf) format("truetype"), url(../fonts/Geomanist-Regular.woff) format("woff"), url(../fonts/Geomanist-Regular.woff2) format("woff2"); }
 @font-face { font-family: 'Helvetica neue';src: url(../fonts/Helvetica-Neue.ttf) format("truetype")}
 /* @font-face { font-family: 'Lato';src: url(../fonts/Lato-Black.ttf) format("truetype")} */
-@font-face { font-family: 'Lato';src: url(../fonts/Lato-Italic.ttf) format("truetype")}
+@font-face { font-family: 'Lato';src: url(../fonts/Lato-Black.ttf) format("truetype")}
 /*== Color ==*/
 /*== End Color ==*/
 /*  Document   : reset css Created on : 11-9-2019, 12:00:00 Author     : DTM Description: Code reset SASS Main */
