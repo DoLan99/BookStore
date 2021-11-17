@@ -1660,7 +1660,7 @@ text-align: center;
   line-height: 21px;
   color: #2578AC;
   transform: rotate(-0.19deg);
-  padding-left: 13px;
+  padding: 0px 13px;
 }
 .section_category_it.active:after .section_news_img .section_news_name{
   text-decoration-line: underline;
