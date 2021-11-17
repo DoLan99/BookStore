@@ -1659,7 +1659,7 @@ text-align: center;
   font-size: 14px;
   line-height: 21px;
   color: #2578AC;
-  transform: rotate(-0.19deg);
+  /* transform: rotate(-0.19deg); */
   padding: 0px 13px;
 }
 .section_category_it.active:after .section_news_img .section_news_name{
@@ -1882,6 +1882,7 @@ text-align: center;
 }
 
 .section_news_name_title a{
+  transition: none;
   color: #2578AC;
 }
 
