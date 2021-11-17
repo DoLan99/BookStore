@@ -2010,8 +2010,12 @@ text-align: center;
   padding-left: 40px;
 }
 
+.faq_content_bottom_item {
+  border-bottom: 1px solid #DEDEDE;
+}
+
 .faq_content_bottom_title h3{
-  font-family: Libre Baskerville;
+  font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -2021,7 +2025,6 @@ text-align: center;
 
   color: #333333;
   padding: 25px 0;
-  border-bottom: 1px solid #DEDEDE;
 }
 
 .faq_content_bottom_title.active h3 {
@@ -2047,6 +2050,7 @@ text-align: center;
   color: #696969;
   display: none;
   letter-spacing: 0.3px;
+  padding-bottom: 24px;
 }
 
 .faq_content_bottom_content.active {
@@ -2057,6 +2061,9 @@ text-align: center;
 /* contact us */
 .contact_us_banner img {
   width: 100%;
+  max-height: 840px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .contact_us_form{
