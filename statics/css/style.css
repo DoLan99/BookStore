@@ -1821,9 +1821,9 @@ text-align: center;
   border: none; 
 }
 
-.categories .section_new_name_download img
+.section_new_name_download img
 {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .categories .container_right .design {
