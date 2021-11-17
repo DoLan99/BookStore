@@ -8,6 +8,10 @@
 /* @font-face { font-family: 'Lato';src: url(../fonts/Lato-Black.ttf) format("truetype")} */
 @font-face { font-family: 'Lato';src: url(../fonts/Lato-Regular.ttf) format("truetype")}
 @font-face { font-family: 'Lato light';src: url(../fonts/Lato-Light.ttf) format("truetype")}
+@font-face { font-family: 'Helvetica Neue bold';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuebold.ttf) format("truetype")}
+@font-face { font-family: 'Helvetica Neue medium';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuemedium.ttf) format("truetype")}
+@font-face { font-family: 'Helvetica';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/HelveticaNeue.ttf) format("truetype")}
+
 /*== Color ==*/
 /*== End Color ==*/
 /*  Document   : reset css Created on : 11-9-2019, 12:00:00 Author     : DTM Description: Code reset SASS Main */
@@ -2082,7 +2086,7 @@ text-align: center;
 }
 
 .contact_us_form h2{
-  font-family: Helvetica;
+  font-family: 'Helvetica Neue bold';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -2095,7 +2099,7 @@ text-align: center;
 }
 
 .contact_us_form p{
-  font-family: Helvetica;
+  font-family: 'Helvetica Neue medium';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -2118,7 +2122,7 @@ text-align: center;
 .contact_us_form_input h2 {
   margin-top: 35px;
   margin-bottom: 40px;
-  font-family: Helvetica;
+  font-family: 'Helvetica Neue medium';
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -2143,7 +2147,7 @@ text-align: center;
 }
 
 .contact_us_form_left_items .right_item_title {
-  font-family: Helvetica;
+  font-family: 'Helvetica Neue medium';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2153,7 +2157,7 @@ text-align: center;
 }
 
 .contact_us_form_left_items .right_item_content{
-  font-family: Helvetica;
+  font-family: 'Helvetica Neue medium';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -2311,7 +2315,10 @@ text-align: center;
   /* .container{
     width: 95%;
   } */
-  .section_footer .container {
+  .advanced_search .container{
+    width: 76%;
+  }
+  .section_footer .container, .contact_us_form .container {
     width: 1390px;
   }
 } 
