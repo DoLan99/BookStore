@@ -2295,4 +2295,7 @@ text-align: center;
   .container{
     width: 95%;
   }
+  .section_footer .container {
+    width: 1390px;
+  }
 } 
