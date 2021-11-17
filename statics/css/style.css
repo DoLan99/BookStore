@@ -1719,7 +1719,7 @@ text-align: center;
 /* .section_feedback_cont { position: relative; }
 .section_feedback_cont h3 { font-family: Calisto MT; font-style: normal; font-weight: normal; font-size: 40px; line-height: 60px; margin-bottom: 10px; } */
 
- .category_related_products_item { padding: 0 6px; }
+ .category_related_products_item { padding: 0 12px; }
 /*.category_related_products_item .section_feedback_des { font-style: normal; font-weight: 300; font-size: 20px; line-height: 30px; color: #565B60; }
 .category_related_products_item .section_feedback_icon { margin-bottom: 15px; }
 .category_related_products_item .section_feedback_name { font-style: normal; font-weight: 500; font-size: 20px; line-height: 30px; color: #3A3A3A; margin-top: 29px; font-family: 'Poppins';}
