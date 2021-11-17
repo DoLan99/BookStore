@@ -1840,6 +1840,7 @@ text-align: center;
 
 .categories .container_right .design {
   border: 1px solid #e5e5e5;
+  position: relative;
 }
 
 .categories .section_news_name{
@@ -1887,10 +1888,17 @@ text-align: center;
 
 .section_new_name_download{
   margin-top: 17px;
+  position: absolute;
+  left: 13px;
+  bottom: 20px;
 }
 
 .section_new_name_download a{
   display: inline;
+}
+
+.section_news_name_title{
+  padding-bottom: 40px;
 }
 
 .section_news_name_title a{
