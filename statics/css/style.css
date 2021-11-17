@@ -1540,6 +1540,9 @@ ul { padding: 0; margin: 0; }
   padding: 5px 15px;
   transform: translate(-50%, -50%);
   background-color:white;
+  font-family: 'Libre Baskervlle';
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .owl_category_related_products {
@@ -1812,6 +1815,24 @@ text-align: center;
   padding-bottom: 20px;
 }
 
+.categories .container_right .section_news_img{
+  height: auto !important;
+  border: none; 
+}
+
+.categories .section_new_name_download img
+{
+  padding: 0;
+}
+
+.categories .container_right .design {
+  border: 1px solid #e5e5e5;
+}
+
+.categories .section_news_name{
+  margin-bottom: 20px;
+} 
+
 .cate_banner_detail .cate_detail_title{
   padding-top: 0px !important;
 }
@@ -1857,6 +1878,10 @@ text-align: center;
 
 .section_new_name_download a{
   display: inline;
+}
+
+.section_news_name_title a{
+  color: #2578AC;
 }
 
 .section_news_name_title a:hover, .section_new_name_download a:hover{
@@ -2035,7 +2060,7 @@ text-align: center;
 }
 
 .contact_us_form h2{
-  font-family: 'Helvetica Neue';
+  font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -2043,17 +2068,18 @@ text-align: center;
   /* identical to box height */
 
   text-transform: uppercase;
-
+  margin-bottom: 20px;
   color: #000000;
+  font-style: italic;
 }
 
 .contact_us_form p{
-  font-family: Helvetica Neue;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-
+  font-style: italic;
   color: #5D5F61;
 }
 
@@ -2072,11 +2098,12 @@ text-align: center;
 .contact_us_form_input h2 {
   margin-top: 35px;
   margin-bottom: 40px;
-  font-family: Helvetica Neue;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
+  font-style: italic;
   /* identical to box height */
 
   text-transform: capitalize;
@@ -2097,22 +2124,26 @@ text-align: center;
 }
 
 .contact_us_form_left_items .right_item_title {
-  font-family: Helvetica Neue;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   text-transform: capitalize;
+  margin-bottom: 8px;
+  font-style: italic;
 }
 
 .contact_us_form_left_items .right_item_content{
-  font-family: Helvetica Neue;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
   color: #000000;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .contact_us_form_right {
@@ -2259,3 +2290,8 @@ text-align: center;
   margin-right: 2px;
 }
 
+@media (min-width: 1800px) {
+  .container{
+    width: 95%;
+  }
+} 
