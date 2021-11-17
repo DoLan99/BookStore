@@ -2092,7 +2092,6 @@ text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #000000;
-  font-style: italic;
 }
 
 .contact_us_form p{
@@ -2101,7 +2100,6 @@ text-align: center;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-  font-style: italic;
   color: #5D5F61;
 }
 
@@ -2153,7 +2151,6 @@ text-align: center;
   line-height: 24px;
   text-transform: capitalize;
   margin-bottom: 8px;
-  font-style: italic;
 }
 
 .contact_us_form_left_items .right_item_content{
@@ -2165,7 +2162,6 @@ text-align: center;
   text-transform: capitalize;
   color: #000000;
   font-weight: normal;
-  font-style: italic;
 }
 
 .contact_us_form_right {
