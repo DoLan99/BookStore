@@ -10,7 +10,7 @@
 @font-face { font-family: 'Lato light';src: url(../fonts/Lato-Light.ttf) format("truetype")}
 @font-face { font-family: 'Helvetica Neue bold';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuebold.ttf) format("truetype")}
 @font-face { font-family: 'Helvetica Neue medium';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuemedium.ttf) format("truetype")}
-@font-face { font-family: 'Helvetica';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/HelveticaNeue.ttf) format("truetype")}
+@font-face { font-family: 'Amazon Ember';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/AmazonEmber/AmazonEmber-Md.ttf) format("truetype")}
 
 /*== Color ==*/
 /*== End Color ==*/
@@ -1666,7 +1666,7 @@ text-align: center;
 .section_category_it { position: relative; }
 .section_category_it .section_news_img { background: #FFFFFF; border: 1px solid #e5e5e5;box-sizing: border-box; height: 220px; position: relative; overflow: hidden; }
 .section_category_it .section_news_img img { padding: 15px; top: 0; left: 0; right: 0; bottom: 0; margin: auto; -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; max-width: 100%; max-height: 100%; }
-.section_category_it:hover img { -webkit-transform: scale(1); transform: scale(1.1); }
+.section_category_it:hover .section_news_product_img img { -webkit-transform: scale(1); transform: scale(1.1); }
 .section_category_it .section_news_img .img_co {float: left;padding: 0;}
 .section_category_it .section_news_img .section_news_name {
   font-family: Amazon Ember;
