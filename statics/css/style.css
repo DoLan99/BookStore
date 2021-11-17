@@ -1569,8 +1569,9 @@ ul { padding: 0; margin: 0; }
 
 .owl_category_related_products {
   margin-top: 70px;
-  padding-left: 100px;
-  padding-right: 100px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  padding: 0 100px;
 }
 
 .section_banners img { margin: auto; display: block; }
@@ -2320,6 +2321,12 @@ text-align: center;
 .advanced_search_right_input button i{
   margin-right: 2px;
 }
+
+/* .category_related_products .section_news_img
+{
+  min-height: 400px !important;
+  height: auto !important;
+} */
 
 @media (min-width: 1680px) {
   /* .container{
