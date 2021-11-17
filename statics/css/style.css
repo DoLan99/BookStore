@@ -1893,7 +1893,7 @@ text-align: center;
 .pagination_right {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 .pagination_right a {
