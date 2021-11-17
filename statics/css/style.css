@@ -1447,10 +1447,22 @@ ul { padding: 0; margin: 0; }
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
+  text-align: justify;
   color: #000000;
   padding-bottom: 28px;
-  border-bottom: 1px solid #E5E5E5;
+  position: relative;
+  /* border-bottom: 1px solid #E5E5E5; */
+}
+
+.product_description span::after{
+  position: absolute;
+  content: '';
+  background-color: #E5E5E5;
+  height: 1px;
+  width: calc(100% - 22px);
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 
 .container_right_detail .share_detail{
