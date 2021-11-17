@@ -11,6 +11,9 @@
 @font-face { font-family: 'Helvetica Neue bold';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuebold.ttf) format("truetype")}
 @font-face { font-family: 'Helvetica Neue medium';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuemedium.ttf) format("truetype")}
 @font-face { font-family: 'Amazon Ember';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/AmazonEmber/AmazonEmber-Md.ttf) format("truetype")}
+@font-face { font-family: 'Geomanist light';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/Geomanist/Geomanist-Regular.otf) format("truetype")}
+@font-face { font-family: 'Geomanist bold';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/Geomanist/Geomanist-Bold.ttf) format("truetype")}
+
 
 /*== Color ==*/
 /*== End Color ==*/
@@ -1751,7 +1754,7 @@ text-align: center;
 
 .container_left_title .left_content h3{
   font-size: 16px;
-  font-family: Geomanist;
+  font-family: 'Geomanist bold';
   text-transform: uppercase;
   font-weight: 700;
   font-style: normal;
@@ -1789,7 +1792,7 @@ text-align: center;
 }
 
 .container_left .container_left_items li .left_item a{
-  font-family: Geomanist;
+  font-family: 'Geomanist light';
   font-size: 14px;
   line-height: 14px;
   color: #000;
