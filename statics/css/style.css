@@ -8,6 +8,7 @@
 /* @font-face { font-family: 'Lato';src: url(../fonts/Lato-Black.ttf) format("truetype")} */
 @font-face { font-family: 'Lato';src: url(../fonts/Lato-Regular.ttf) format("truetype")}
 @font-face { font-family: 'Lato light';src: url(../fonts/Lato-Light.ttf) format("truetype")}
+@font-face { font-family: 'Helvetica Neue regular';src: url(../fonts/HelveticaNeue-Regular.ttf) format("truetype")}
 @font-face { font-family: 'Helvetica Neue bold';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuebold.ttf) format("truetype")}
 @font-face { font-family: 'Helvetica Neue medium';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuemedium.ttf) format("truetype")}
 @font-face { font-family: 'Amazon Ember';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/AmazonEmber/AmazonEmber-Md.ttf) format("truetype")}
@@ -1567,6 +1568,8 @@ ul { padding: 0; margin: 0; }
   font-weight: bold;
 }
 
+.category_related_products_title h2{ font-size: 24px; }
+
 .owl_category_related_products {
   margin-top: 70px;
   /* padding-left: 100px;
@@ -1977,7 +1980,7 @@ text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
-
+  margin-bottom: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 
