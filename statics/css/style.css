@@ -8,8 +8,8 @@
 /* @font-face { font-family: 'Lato';src: url(../fonts/Lato-Black.ttf) format("truetype")} */
 @font-face { font-family: 'Lato';src: url(../fonts/Lato-Regular.ttf) format("truetype")}
 @font-face { font-family: 'Lato light';src: url(../fonts/Lato-Light.ttf) format("truetype")}
+@font-face { font-family: 'Helvetica Neue regular';src: url(../fonts/HelveticaNeue-Regular.ttf) format("truetype")}
 @font-face { font-family: 'Helvetica Neue bold';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuebold.ttf) format("truetype")}
-@font-face { font-family: 'Helvetica Neue medium';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuemedium.ttf) format("truetype")}
 @font-face { font-family: 'Amazon Ember';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/AmazonEmber/AmazonEmber-Md.ttf) format("truetype")}
 @font-face { font-family: 'Geomanist light';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/Geomanist/Geomanist-Regular.otf) format("truetype")}
 @font-face { font-family: 'Geomanist bold';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/Geomanist/Geomanist-Bold.ttf) format("truetype")}
@@ -1979,7 +1979,7 @@ text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
-
+  margin-bottom: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 
@@ -2114,7 +2114,7 @@ text-align: center;
 }
 
 .contact_us_form p{
-  font-family: 'Helvetica Neue medium';
+  font-family: 'Helvetica Neue regular';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -2137,7 +2137,7 @@ text-align: center;
 .contact_us_form_input h2 {
   margin-top: 35px;
   margin-bottom: 40px;
-  font-family: 'Helvetica Neue medium';
+  font-family: 'Helvetica Neue regular';
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -2162,7 +2162,7 @@ text-align: center;
 }
 
 .contact_us_form_left_items .right_item_title {
-  font-family: 'Helvetica Neue medium';
+  font-family: 'Helvetica Neue regular';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2172,7 +2172,7 @@ text-align: center;
 }
 
 .contact_us_form_left_items .right_item_content{
-  font-family: 'Helvetica Neue medium';
+  font-family: 'Helvetica Neue regular';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
