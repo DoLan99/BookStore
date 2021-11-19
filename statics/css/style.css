@@ -8,7 +8,7 @@
 /* @font-face { font-family: 'Lato';src: url(../fonts/Lato-Black.ttf) format("truetype")} */
 @font-face { font-family: 'Lato';src: url(../fonts/Lato-Regular.ttf) format("truetype")}
 @font-face { font-family: 'Lato light';src: url(../fonts/Lato-Light.ttf) format("truetype")}
-@font-face { font-family: 'Helvetica Neue regular';src: url(../fonts/HelveticaNeue-Regular.ttf) format("truetype")}
+@font-face { font-family: 'Helvetica Neue regular';src: url(../fonts/HelveticaNeue.eot);src: url(../fonts/HelveticaNeue.ttf) format("truetype")}
 @font-face { font-family: 'Helvetica Neue bold';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuebold.ttf) format("truetype")}
 @font-face { font-family: 'Helvetica Neue medium';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/HelveticaNeue/helveticaneuemedium.ttf) format("truetype")}
 @font-face { font-family: 'Amazon Ember';src: url(../Export_PLR_Bookstore/Export_PLR_Bookstore/Font/AmazonEmber/AmazonEmber-Md.ttf) format("truetype")}
@@ -890,6 +890,12 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
   .container{
     width: 95%;
     max-width: 100%;
+  }
+  .container_detail{
+    width: 80%;
+    max-width: 100%;
+    padding-bottom: 0px;
+    padding-top: 4px;
   }
   #nav-home-tab {
     padding: 0 44px;
