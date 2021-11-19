@@ -1941,10 +1941,11 @@ text-align: center;
 }
 
 .section_news_product_img .description_product_image p{
-  font-family: verdana,'Open Sans','Roboto', sans-serif;
   line-height: 22px;
   font-size: 13px;
   font-weight: 100;
+  font-family: 'Libre Baskerville';
+  color: #5D5F61;
 }
 
 .section_news_product_img .description_product_image .des{
