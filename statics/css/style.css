@@ -891,6 +891,12 @@ border-radius: 10px;*/ -webkit-box-shadow: none; box-shadow: none; width: 5px !i
     width: 95%;
     max-width: 100%;
   }
+  .container_detail{
+    width: 80%;
+    max-width: 100%;
+    padding-bottom: 0px;
+    padding-top: 4px;
+  }
   #nav-home-tab {
     padding: 0 44px;
     margin-right: 74px;
